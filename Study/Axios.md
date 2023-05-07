@@ -28,9 +28,12 @@ Axios란 브라우저, Node.js를 위한 PromiseAPI를 활용하는 HTTP 비동�
 3. Delete
    axios.delete(URL,[,config]);
 
--   Delete메서드는 HTML Form 태그에서 기본적으로 지원하는 HTTP 메서드가 아니다
+-   Delete메서드는 HTML Form 태그에서 기본적으로 지원하는 HTTP 메서드가 아니다.
 -   Delete메서드는 서버에 있는 데이터베이스의 내용을 삭제하는 것을 주 목적으로 하기에 두 번째 인자를 아예 전달하지 않는다.
 
 4. PUT
    axios.put(url[, data[, config]])
-   REST 기반 API 프로그램에서 데이터베이스에 저장되어 있는 내용을 갱신하는 목적으로 사용됩니다.
+
+-   REST 기반 API 프로그램에서 데이터베이스에 저장되어 있는 내용을 갱신하는 목적으로 사용된다.
+-   PUT메서드는 HTML Form 태그에서 기본적으로 지원하는 HTTP 메서드가 아니다.
+-   PUT메서드는 서버에 있는 데이터베이스의 내용을 변경하는 것을 주 목적으로 하고 있다.
